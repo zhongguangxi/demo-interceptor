@@ -1,0 +1,15 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /service
+
+ignore:
+  urls:
+    - /login.do
+    - /doLogin.do
+    - /logout.do
+    - /assets/**
+    - /**/*.js
+    - /**/*.css
+    - /error
+    - /**/helloWorld
